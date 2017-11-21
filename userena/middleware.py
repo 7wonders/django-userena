@@ -7,7 +7,7 @@ from userena.compat import SiteProfileNotAvailable
 from userena.utils import get_user_profile
 
 
-class UserenaLocaleMiddleware(object):
+class UserenaLocaleMiddleware(MiddlewareMixin):
     """
     Set the language by looking at the language setting in the profile.
 
