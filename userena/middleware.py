@@ -1,6 +1,7 @@
 from django.utils import translation
 from django.core.exceptions import ObjectDoesNotExist
 from django.conf import settings
+from django.utils.deprecation import MiddlewareMixin
 
 from userena import settings as userena_settings
 from userena.compat import SiteProfileNotAvailable
