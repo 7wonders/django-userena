@@ -15,8 +15,8 @@ except IOError:
 
 install_requires = [
     'easy_thumbnails',
-    'django-guardian<=1.4.1',
-    'html2text==2014.12.29'
+    'django-guardian',
+    'html2text'
 ]
 
 try:
